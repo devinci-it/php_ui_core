@@ -1,0 +1,16 @@
+{
+    "name": "devinci/uicore",
+    "description": "Reusable UI components for php projects.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devinci\\Uicore\\": "src/"
+        },
+        "files": ["vendor/devinci/uicore/include_static.php"]
+    },
+    "extra": {
+        "asset-dir": "static"
+    },
+    "require": {}
+}
