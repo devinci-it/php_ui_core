@@ -1,5 +1,5 @@
 <?php
-namespace Classes\UICore\InputIcon;
+namespace Devinci\UICore\InputIcon;
 
 class InputIcon
 {

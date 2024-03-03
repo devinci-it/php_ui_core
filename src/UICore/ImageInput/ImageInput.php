@@ -1,8 +1,8 @@
 <?php
 
-namespace Classes\UICore\ImageInput;
+namespace Devinci\UICore\ImageInput;
 
-use Classes\UICore\Input\Input;
+use Devinci\UICore\Input\Input;
 
 class ImageInput extends Input
 {
@@ -12,7 +12,7 @@ class ImageInput extends Input
      * This class provides methods to customize the accepted file extensions and upload directory for image files.
      * It generates the corresponding HTML markup for an image input field with optional labeling and additional attributes.
      *
-     * @package Classes\UICore\ImageInput
+     * @package Devinci\UICore\ImageInput
      */
 
     protected $acceptedExtensions = [];

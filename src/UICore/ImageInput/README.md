@@ -43,7 +43,7 @@ The `ImageInputBuilder` class extends the `InputBuilder` class and is responsibl
 ```php
 // Assuming autoloading is set up, and the necessary classes are correctly namespaced
 
-use Classes\UICore\ImageInput\ImageInputBuilder;
+use Devinci\UICore\ImageInput\ImageInputBuilder;
 
 // Create an instance of ImageInputBuilder
 $imageInputBuilder = new ImageInputBuilder();
@@ -79,7 +79,7 @@ The `ImagePreviewer` class provides a static method to render an image preview b
 ```php
 // Assuming autoloading is set up, and the necessary classes are correctly namespaced
 
-use Classes\UICore\ImageInput\ImageInputBuilder;use Classes\UICore\ImageInput\ImagePreviewer;
+use Devinci\UICore\ImageInput\ImageInputBuilder;use Devinci\UICore\ImageInput\ImagePreviewer;
 
 // Create an instance of ImageInputBuilder
 $imageInputBuilder = new ImageInputBuilder();

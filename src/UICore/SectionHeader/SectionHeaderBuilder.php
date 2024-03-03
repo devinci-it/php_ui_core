@@ -1,6 +1,6 @@
 <?php
 
-namespace Classes\UICore\SectionHeader;
+namespace Devinci\UICore\SectionHeader;
 
 class SectionHeaderBuilder
 {

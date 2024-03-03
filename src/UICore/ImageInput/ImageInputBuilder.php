@@ -20,7 +20,7 @@
  * ```php
  * // Assuming autoloading is set up, and the necessary classes are correctly namespaced
  *
- * use Classes\UICore\ImageInput\ImageInputBuilder;
+ * use Devinci\UICore\ImageInput\ImageInputBuilder;
  *
  * // Create an instance of ImageInputBuilder
  * $imageInputBuilder = new ImageInputBuilder();
@@ -41,12 +41,12 @@
  * echo $html;
  * ```
  *
- * @package Classes\UICore\ImageInput
+ * @package Devinci\UICore\ImageInput
  */
 
-namespace Classes\UICore\ImageInput;
+namespace Devinci\UICore\ImageInput;
 
-use Classes\UICore\Input\InputBuilder;
+use Devinci\UICore\Input\InputBuilder;
 
 
 class ImageInputBuilder extends InputBuilder

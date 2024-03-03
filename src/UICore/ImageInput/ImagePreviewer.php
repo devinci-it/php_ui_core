@@ -1,5 +1,5 @@
 <?php
-namespace Classes\UICore\ImageInput;
+namespace Devinci\UICore\ImageInput;
 
 class ImagePreviewer
 {
@@ -18,8 +18,8 @@ class ImagePreviewer
      * ```php
      * // Assuming autoloading is set up, and the necessary classes are correctly namespaced
      *
-     * use Classes\UICore\ImageInput\ImageInputBuilder;
-     * use Classes\UICore\ImageInput\ImagePreviewer;
+     * use Devinci\UICore\ImageInput\ImageInputBuilder;
+     * use Devinci\UICore\ImageInput\ImagePreviewer;
      *
      * // Create an instance of ImageInputBuilder
      * $imageInputBuilder = new ImageInputBuilder();
@@ -37,7 +37,7 @@ class ImagePreviewer
      * echo $imagePreviewHtml;
      * ```
      *
-     * @package Classes\UICore\ImageInput
+     * @package Devinci\UICore\ImageInput
      */
 
     public static function renderPreview(ImageInputBuilder $imageInput): string

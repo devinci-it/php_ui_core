@@ -1,5 +1,5 @@
 <?php
-namespace Classes\UICore\ActionMenu;
+namespace Devinci\UICore\ActionMenu;
 
 class ActionMenu
 {

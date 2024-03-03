@@ -1,6 +1,6 @@
 <?php
 
-namespace Classes\UICore\Input;
+namespace Devinci\UICore\Input;
 
 class InputBuilder
 {

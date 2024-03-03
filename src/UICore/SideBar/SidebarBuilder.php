@@ -1,6 +1,6 @@
 <?php
 
-namespace Classes\UICore\SideBar;
+namespace Devinci\UICore\SideBar;
 
 class SidebarBuilder
 {
