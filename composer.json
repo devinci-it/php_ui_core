@@ -7,10 +7,12 @@
         "psr-4": {
             "Devinci\\Uicore\\": "src/"
         },
-        "files": ["vendor/devinci/uicore/scripts/include_static.php"]
+        "files": ["vendor/devinci-it/uicore/scripts/include_static.php"]
     },
     "extra": {
         "asset-dir": "static"
     },
-    "require": {}
+    "require-dev": {
+        "laravel/framework": "^8.0"
+    }
 }
