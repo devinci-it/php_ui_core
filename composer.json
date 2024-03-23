@@ -1,6 +1,6 @@
 {
     "name": "devinci-it/uicore",
-    "description": "Reusable UI components for php projects.",
+    "description": "The composer_core_ui library simplifies the creation of interactive user interfaces for web applications with a rich feature set and modular architecture.",
     "type": "library",
     "license": "MIT",
     "autoload": {
