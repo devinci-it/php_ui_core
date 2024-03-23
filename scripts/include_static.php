@@ -1,7 +1,7 @@
 <?php
 
 // Autoload the static assets
-include_once __DIR__ . '/../../../../../autoload.php';
+include_once __DIR__ . '/../vendor/autoload.php';
 
 use Composer\Autoload\ClassLoader;
 

@@ -1,0 +1,15 @@
+name: Generate Tar File
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-tar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Generate Tar
+        run: ./generate_tar.sh

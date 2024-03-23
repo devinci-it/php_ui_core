@@ -7,7 +7,7 @@
         "psr-4": {
             "Devinci\\Uicore\\": "src/"
         },
-        "files": ["vendor/devinci/uicore/include_static.php"]
+        "files": ["vendor/devinci/uicore/scripts/include_static.php"]
     },
     "extra": {
         "asset-dir": "static"
