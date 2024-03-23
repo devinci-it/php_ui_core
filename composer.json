@@ -1,14 +1,13 @@
 {
     "name": "devinci-it/uicore",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "The composer_core_ui library simplifies the creation of interactive user interfaces for web applications with a rich feature set and modular architecture.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "Devinci\\Uicore\\": "src/"
-        },
-        "files": ["scripts/include_static.php"]
+        }
     },
     "extra": {
         "asset-dir": "static"
