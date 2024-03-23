@@ -1,0 +1,33 @@
+name: PHP Composer
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Validate composer.json and composer.lock
+      run: composer validate --strict
+
+    - name: Install Composer dependencies
+      run: composer install --prefer-dist --no-progress --no-interaction
+
+    - name: Run PHPUnit tests
+      run: vendor/bin/phpunit --testdox
+
+    - name: Check coding standards
+      run: vendor/bin/phpcs
+
+    - name: Generate documentation
+      run: vendor/bin/phpdoc -d src/ -t docs/
