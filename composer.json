@@ -1,6 +1,6 @@
 {
     "name": "devinci-it/uicore",
-    "version": "1.0.3",
+    "version": "v1.0.4",
     "description": "The composer_core_ui library simplifies the creation of interactive user interfaces for web applications with a rich feature set and modular architecture.",
     "type": "library",
     "license": "MIT",
