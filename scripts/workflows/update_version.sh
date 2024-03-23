@@ -1,5 +1,10 @@
 #!/bin/bash
 
+
+echo "Executing update_version.sh script"
+latest_commit_message=$(git log -1 --pretty=%B)
+echo "Latest commit message: $latest_commit_message"
+
 latest_commit_message=$(git log -1 --pretty=%B)
 
 case "$latest_commit_message" in

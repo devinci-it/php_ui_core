@@ -25,7 +25,5 @@ jobs:
             ${{ runner.os }}-composer-
 
       - name: Update version based on commit message
-        run: /scripts/workflows/update_version.sh
+        run: bash scripts/workflows/update_version.sh
 
-      - name: Install dependencies
-        run: composer install --prefer-dist --no-progress
